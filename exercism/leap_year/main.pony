@@ -24,4 +24,4 @@ actor Main
         env.out.print("Is leap year 100 ? : " + LeapYear.is_leap_year(100).string())
         env.out.print("Is leap year 200 ? : " + LeapYear.is_leap_year(200).string())
         env.out.print("Is leap year 304 ? : " + LeapYear.is_leap_year(304).string())
-        env.out.print("Is leap year 304 ? : " + LeapYear.is_leap_year(302).string())
+        env.out.print("Is leap year 302 ? : " + LeapYear.is_leap_year(302).string())
