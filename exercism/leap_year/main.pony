@@ -1,11 +1,7 @@
 
 primitive LeapYear
     fun is_leap_year(year : U32) : Bool =>
-        let by4 = year % 4
-        let by100 = year % 100
-        let by400 = year % 400
-        let tuple = (year % 4, year % 100, year % 400)
-        match tuple
+        match (year % 4, year % 100, year % 400)
         | (_ , 0, 0) =>
             true
         | (0, 0, _) =>
